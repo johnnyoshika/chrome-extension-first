@@ -3,5 +3,10 @@
   "name": "Getting Started Example",
   "description": "Build an extension",
   "version": "1.0",
-  "author": "Johnny Oshika"
+  "author": "Johnny Oshika",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }
